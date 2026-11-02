@@ -6,3 +6,4 @@ This a README.md file that describes all the contents inside hello_world.
 - 3-name: a shell script that compiles the C file named in the CFILE variable and creates an executable called cisfun.
 - 4-puts.c: a C program that uses puts to print a line about programming being like a puzzle, starting with a quote mark, and then ends with 0.
 - 5-printf.c: a C program that uses printf to print a line about proper grammar and a piece of art, with a new line at the end, and then ends with 0.
+- 6-size.c: a C program that uses printf and sizeof to print the size in bytes of a char, an int, a long int, a long long int and a float on the computer it runs on, and then ends with 0.
