@@ -7,3 +7,4 @@
 - 2-print_alphabet.c: prints the lowercase alphabet followed by a new line, using putchar only. - used i++. 
 - 3-print_alphabets.c: prints the lowercase alphabet then the uppercase alphabet, followed by a new line, using putchar only. (Mostly same as task 2).
 - 4-print_alphabt.c: prints the lowercase alphabet without the letters q and e, followed by a new line, using putchar only. - used "!= and &&"
+- 5-print_numbers.c: prints all single digit numbers of base 10 starting from 0, followed by a new line. - This one I used the same formula from task 2, just changed the characters to numbers.
