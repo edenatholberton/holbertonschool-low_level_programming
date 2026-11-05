@@ -15,8 +15,11 @@ int main(void)
 	while (number <= '9')
 	{
 		putchar(number);
-		putchar(comma);
-		putchar(space);
+		if (number != '9')
+		{
+			putchar(comma);
+			putchar(space);
+		}
 		number++;
 	}
 	putchar('\n');

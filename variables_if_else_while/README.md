@@ -11,4 +11,6 @@
 - 6-print_numberz.c: prints all single digit numbers of base 10 starting from 0, followed by a new line, without using a char variable. - I swapped 'char' for 'int', it just made sense here.
 - 7-print_tebahpla.c: prints the lowercase alphabet in reverse, followed by a new line, using putchar only. - Reversed char order then used --letter instead of letter++.
 - 8-print_base16.c: prints all the numbers of base 16 in lowercase, followed by a new line, using putchar only. - Used two while loops consecutively.
+- 9-print_comb.c: prints all possible combinations of single digit numbers, separated by a comma and a space, in ascending order. - Used an if condition.
 
+This wraps up all the tasks inside my project!
