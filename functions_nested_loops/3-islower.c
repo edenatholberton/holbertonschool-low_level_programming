@@ -3,7 +3,7 @@
 /**
  * _islower - checks for the lowercase character
  *
- * @c - the charcter to check ("c" is describing the parameter)
+ * @c: the charcter to check ("c" is describing the parameter)
  *
  * Return: Always 1 or 0.
  */
