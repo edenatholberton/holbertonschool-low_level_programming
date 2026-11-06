@@ -11,4 +11,5 @@
 - 4-isalpha.c: function that checks for a letter; whether it is lowercase or uppercase, returning 1 if it is, and 0 if it is not.
 - 5-sign.c: function that returns +1 if n is greater than zero, -1 if n is less than zero, or 0 is n is zero.
 - 6-abs.c: function that computes the absolute value of an integer. Used if/else conditions.
-- 7-print_last_digit.c: function that prints the last digit of a number and returns that digit. - used modulo again. 
+- 7-print_last_digit.c: function that prints the last digit of a number and returns that digit. - used modulo again.
+- 8-24_hours.c: function that prints each minute of the day, from 00:00 to 23:59, one per line. - ordered through putchar and modulo. 
