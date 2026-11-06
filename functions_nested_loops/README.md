@@ -15,3 +15,4 @@
 - 8-24_hours.c: function that prints each minute of the day, from 00:00 to 23:59, one per line. - ordered through putchar and modulo.
 - 9-times_table.c: function that prints the 9 times table in a grid format, starting with 0.
 - 10-add.c: function that adds two integers and returns the result.
+- 11-print_to_98.c: function that prints the integers from n to 98, followed by a new line.
