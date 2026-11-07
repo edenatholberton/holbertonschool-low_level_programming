@@ -4,3 +4,4 @@
 
 - 0-isupper.c: a script that checks if a character is uppercase or not.
 - 1-isdigit.c: checks if a character is a digit (0 to 9)
+- 2-mul.c: multiplies two integers
