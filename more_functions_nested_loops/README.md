@@ -10,3 +10,4 @@
 - 5-more_numbers.c: prints the numbers 0-14 10 times.
 - 6-print_line.c: draws a straight line of underscores
 - 7-print_diagonal.c: draws a diagonal line of backslashes. - a tough nested loop.
+- 8-print_square.c: prints a square of # characters - but uses the 'size' function instead of a fixed number.
