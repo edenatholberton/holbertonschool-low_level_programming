@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints the numbers from 1 to 100, with Fizz, Buzz and FizzBuzz
@@ -8,47 +8,57 @@
 
 int main(void)
 {
-        int n = 1;
-	char Fizz = 'f'
-	char Buzz = 'b'
-	char FizzBuzz = 'z'
-
+	int n = 1;
 
 	while (n <= 100)
-        {
-		if (100 / 3)
+	{
+		if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			putchar('f')
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
 		}
-		else if (100 / 5)
+		else if (n % 3 == 0)
 		{
-			putchar('b')
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
 		}
-		else (100 / 3 && 5)
+		else if (n % 5 == 0)
 		{
-			putchar('z')
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
 		}
-                if (n == 100)
-                {
-                        putchar('1');
-                        putchar('0');
-                        putchar('0');
-                }
-                else
-                {
-                        if (n >= 10)
-                        {
-                                putchar(n / 10 + '0');
-                        }
-                        putchar(n % 10 + '0');
-                }
-                if (n < 100)
-                {
-                        putchar(' ');
-                }
-                n++;
-        }
-        putchar('\n');
-        return (0);
+		else if (n == 100)
+		{
+			_putchar('1');
+			_putchar('0');
+			_putchar('0');
+		}
+		else if (n >= 10)
+		{
+			_putchar(n / 10 + '0');
+			_putchar(n % 10 + '0');
+		}
+		else
+		{
+			_putchar(n % 10 + '0');
+		}
+		if (n < 100)
+		{
+			_putchar(' ');
+		}
+			n++;
+	}
+	_putchar('\n');
+	return (0);
 }
 

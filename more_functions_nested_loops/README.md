@@ -11,3 +11,4 @@
 - 6-print_line.c: draws a straight line of underscores
 - 7-print_diagonal.c: draws a diagonal line of backslashes. - a tough nested loop.
 - 8-print_square.c: prints a square of # characters - but uses the 'size' function instead of a fixed number.
+- 9-fizz_buzz.c: prints 1 to 100, with Fizz, Buzz and FizzBuzz - all done using _putchar method
