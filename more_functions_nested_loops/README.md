@@ -9,3 +9,4 @@
 - 4-print_most_numbers.c: prints the numbers from 0 to 9 except 2 and 4
 - 5-more_numbers.c: prints the numbers 0-14 10 times.
 - 6-print_line.c: draws a straight line of underscores
+- 7-print_diagonal.c: draws a diagonal line of backslashes. - a tough nested loop.
