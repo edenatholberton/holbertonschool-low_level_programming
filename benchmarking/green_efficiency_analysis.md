@@ -29,7 +29,15 @@ This gave us the results for Timings (in seconds).
 The total can be verified by adding the sum of BUILD_DATA, PROCESS & REDUCE ( 0.000282 + 0.000320 + 0.000135 = 0.000737) which equals our TOTAL.
 
 ## Relation Between Runtime and Energy Consumption
+The relation between runtime and energy consumption is that a program that takes longer to run, keeps the CPU active for longer, and a busy CPU generally  means the use of more power.
+
+As shown from our results above, the single-pass algorithm (SPAT) was about 25,575x faster, so it kept the CPU busy for only 1/25,575 of the time. Huge difference.
 
 ## Limitations of the Experiment
+A limitation is that task 2 has only one run (0.000737 seconds for TOTAL), whereas tasks 0 and 1 each had 3 runs.
+
+The most important limitation is that this project doesn't measure watts, so I can't precisely calculate the energy used from CPU runtime alone.
+
+Another point to mention is I ran all these in the Holberton sandbox, so I assume the results may differ elsewhere/on different machines. 
 
 ## Practical Engineering Takeaway
