@@ -8,3 +8,4 @@
 - 5-rev_string.c a function that reverses a string.
 - 6-puts2.c: a function that prints every other character of a string, followed by a new line.
 - 7-puts_half.c: a function that prints the second half of a string, followed by a new line.
+- 8-print_array.c: a function that prints n elements of an array of integers, followed by a new line.
