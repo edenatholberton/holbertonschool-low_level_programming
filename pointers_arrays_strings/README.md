@@ -15,7 +15,8 @@
 
 ## C - More pointers, arrays and strings
 
-- 0-strcat.c: _strcat joins the string src onto the end of the string dest and returns a pointer to dest.
-- 1-strncat.c: _strncat joins at most n letters of the string src onto the end of the string dest and returns a pointer to dest.
-- 2-strncpy.c: _strncpy copies at most n bytes of the string src into dest, fills the rest of the n bytes with zero bytes, and returns a pointer to dest.
-- 3-strcmp.c: _strcmp compares the strings s1 and s2 and returns the difference of the first letters that differ, or 0 if the strings are the same.
+- 0-strcat.c: joins the string src onto the end of the string dest and returns a pointer to dest.
+- 1-strncat.c: joins at most n letters of the string src onto the end of the string dest and returns a pointer to dest.
+- 2-strncpy.c: copies at most n bytes of the string src into dest, fills the rest of the n bytes with zero bytes, and returns a pointer to dest.
+- 3-strcmp.c: compares the strings s1 and s2 and returns the difference of the first letters that differ, or 0 if the strings are the same.
+- 4-rev_array.c: reverses the content of an array of integers in place.
