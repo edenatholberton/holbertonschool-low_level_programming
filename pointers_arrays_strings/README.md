@@ -11,3 +11,8 @@
 - 8-print_array.c: a function that prints n elements of an array of integers, followed by a new line.
 - 9-strcpy.c: a function that copies a string from src into dest, including the ending null byte, and returns dest.
 - 100-atoi.c: a function that turns a string into an integer, skipping the characters before the number and counting the minus signs to set the sign.
+
+
+## C - More pointers, arrays and strings
+
+- 0-strcat.c: _strcat joins the string src onto the end of the string dest and returns a pointer to dest.
