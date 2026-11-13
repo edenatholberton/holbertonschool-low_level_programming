@@ -33,3 +33,4 @@
 - 4-strpbrk.c: finds the first character in a string that matches any character from a set.
 - 5-strstr.c: finds the first place a smaller string appears inside a larger string.
 - 7-print_chessboard.c: prints a chessboard stored as an 8 by 8 grid of characters.
+- 8-print_diagsums.c: prints the sums of the two diagonals of a square matrix of integers.
