@@ -17,3 +17,4 @@
 
 - 0-strcat.c: _strcat joins the string src onto the end of the string dest and returns a pointer to dest.
 - 1-strncat.c: _strncat joins at most n letters of the string src onto the end of the string dest and returns a pointer to dest.
+- 2-strncpy.c: _strncpy copies at most n bytes of the string src into dest, fills the rest of the n bytes with zero bytes, and returns a pointer to dest.
