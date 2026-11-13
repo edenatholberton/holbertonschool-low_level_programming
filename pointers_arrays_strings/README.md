@@ -31,3 +31,4 @@
 - 2-strchr.c: finds the first place a character appears in a string.
 - 3-strspn.c: counts how many characters at the start of a string are in a set of allowed characters.
 - 4-strpbrk.c: finds the first character in a string that matches any character from a set.
+- 5-strstr.c: finds the first place a smaller string appears inside a larger string.
