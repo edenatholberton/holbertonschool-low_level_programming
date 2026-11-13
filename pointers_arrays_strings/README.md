@@ -29,3 +29,4 @@
 - 0-memset.c: fills the first n bytes of a memory area with a constant byte.
 - 1-memcpy.c: copies n bytes from one memory area to another.
 - 2-strchr.c: finds the first place a character appears in a string.
+- 3-strspn.c: counts how many characters at the start of a string are in a set of allowed characters.
