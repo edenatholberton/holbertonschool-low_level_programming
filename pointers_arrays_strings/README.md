@@ -16,3 +16,4 @@
 ## C - More pointers, arrays and strings
 
 - 0-strcat.c: _strcat joins the string src onto the end of the string dest and returns a pointer to dest.
+- 1-strncat.c: _strncat joins at most n letters of the string src onto the end of the string dest and returns a pointer to dest.
