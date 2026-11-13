@@ -22,3 +22,8 @@
 - 4-rev_array.c: reverses the content of an array of integers in place.
 - 5-string_toupper.c: converts the lowercase letters in a string to uppercase.
 - 6-cap_string.c: capitalizes the first letter of each word in a string.
+
+
+
+## C - Even more pointers, arrays and strings
+- 0-memset.c: fills the first n bytes of a memory area with a constant byte.
