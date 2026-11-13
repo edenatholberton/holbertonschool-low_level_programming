@@ -20,3 +20,4 @@
 - 2-strncpy.c: copies at most n bytes of the string src into dest, fills the rest of the n bytes with zero bytes, and returns a pointer to dest.
 - 3-strcmp.c: compares the strings s1 and s2 and returns the difference of the first letters that differ, or 0 if the strings are the same.
 - 4-rev_array.c: reverses the content of an array of integers in place.
+- 5-string_toupper.c: converts the lowercase letters in a string to uppercase.
