@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	int n = 0; 
+	int n = 1; 
 
 	printf("Welcome to Eden's Simple Calculator! \n");
 	printf("\nType a number to select your category:\n");
@@ -24,21 +24,30 @@ int main(void)
 	printf(" 4) Divide /\n");
 	printf("\n 0) QUIT \n");
 
-	printf("Choice: ");
-	scanf("%d", &n);
-	 
-	/** PRINT MENU (LOOP) BEGINS */
 
+	/** MENU CHOICE */
+	
+
+	/* Exits program (key) */
+	while (n != 0)
+	{
+		printf("Choice: ");
+		scanf("%d", &n);
+		
+		if (n == 0)
+		{
+			printf("Bye! \n");
+			return 0;
+		}
 
 		/* Proceed to Addition tab */
-		while (n == 1)
-	{
+		else if (n == 1)
 		{
 	
 		}
 
 		/* Proceed to Subtract tab */		
-		if (n == 2)
+		else if (n == 2)
 		{
 
 		}
@@ -60,13 +69,6 @@ int main(void)
 		{
 			printf("Invalid Choice \n");
 		}
-	}
-	
-	/* Exits program (key) */	
-	if (n == 0) 	
-	{
-		printf("Bye! \n");
-	}
-	/* END */
+	}	
 	return 0;
 }
