@@ -1,15 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
- /**
-  * This is the skeleton of the simple calculator.
-  *
-  * Requirements:
-  * - print a welcome line [x] 
-  * - display a menu	   [x]
-  * - quit with option 0   [x]
-  */
 
 int main(void)
 {
@@ -20,7 +9,6 @@ int main(void)
 	printf("Welcome to Eden's Simple Calculator!\n");
 
 	/** MENU CHOICE */
-
 	while (n != 0)
 	{
 		printf("\n 1) Add + \n");
@@ -52,7 +40,7 @@ int main(void)
 			printf("\nResult: %g\n", A + B);
 		}
 
-		/* Proceed to Subtract tab */		
+		/* Proceed to Subtraction tab */		
 		else if (n == 2)
 		{
 			printf("A: ");

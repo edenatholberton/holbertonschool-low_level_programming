@@ -1,6 +1,4 @@
-## README for Eden's Simple Calculator
-
-# Simple Calculator
+# Eden's Simple Calculator
 
 - A calculator that runs in the terminal. 
 - It is written in C
@@ -8,15 +6,15 @@
 
 ## Compile
 
-- To compile: 
+To compile, type: 
 - gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator
 
 ## Run
 
-- To run:
+To run, type:
 - ./calculator
 
-- You will see a welcome line and a menu. Type a number to pick a choice, then press Enter.
+You will see a welcome line and a menu. Type a number to pick a choice, then press Enter.
 
 ## What it can do
 
@@ -26,9 +24,9 @@
 - 4: divide
 - 0: quit
 
-- For 1 to 4 it asks for A, then B, then shows the result. After that the menu comes back. 
-- If the number is not on the menu it says Invalid Choice and shows the menu again.
-- If you try to divide by zero it says Error: division by zero.
+For 1 to 4 it asks for A, then B, then shows the result. After that the menu comes back. 
+	- If the number is not on the menu it says Invalid Choice and shows the menu again.
+	- If you try to divide by zero it says Error: division by zero.
 
 ## Numbers
 
