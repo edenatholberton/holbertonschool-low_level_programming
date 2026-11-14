@@ -13,7 +13,6 @@
 
 int main(void)
 {
-
 	int n = 0; 
 
 	printf("Welcome to Eden's Simple Calculator! \n");
@@ -27,11 +26,47 @@ int main(void)
 
 	printf("Choice: ");
 	scanf("%d", &n);
+	 
+	/** PRINT MENU (LOOP) BEGINS */
 
-	if (n == 0)
+
+		/* Proceed to Addition tab */
+		while (n == 1)
+	{
+		{
+	
+		}
+
+		/* Proceed to Subtract tab */		
+		if (n == 2)
+		{
+
+		}
+
+		/* Proceed to Multiplication tab */
+		else if (n == 3)
+		{
+
+		}
+
+		/*  Proceed to Division tab */		
+		else if (n == 4)
+		{
+
+		}
+
+		/* If user inputs anything else. Loop recalls to the top */
+		else 
+		{
+			printf("Invalid Choice \n");
+		}
+	}
+	
+	/* Exits program (key) */	
+	if (n == 0) 	
 	{
 		printf("Bye! \n");
 	}
-
+	/* END */
 	return 0;
 }
