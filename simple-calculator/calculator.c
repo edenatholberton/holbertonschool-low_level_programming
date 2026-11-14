@@ -15,28 +15,26 @@ int main(void)
 {
 	int n = 1; 
 
-	printf("Welcome to Eden's Simple Calculator! \n");
-	printf("\nType a number to select your category:\n");
-
-	printf(" 1) Add + \n");
-	printf(" 2) Subtract - \n");
-	printf(" 3) Multiply *\n");
-	printf(" 4) Divide /\n");
-	printf("\n 0) QUIT \n");
-
+	printf("Welcome to Eden's Simple Calculator!\n");
 
 	/** MENU CHOICE */
-	
 
-	/* Exits program (key) */
 	while (n != 0)
 	{
+		printf("\n 1) Add + \n");
+		printf(" 2) Subtract - \n");
+		printf(" 3) Multiply *\n");
+		printf(" 4) Divide /\n");
+		printf("\n 0) QUIT \n");
+	
+		printf("\nType a number to select your category:\n");
 		printf("Choice: ");
 		scanf("%d", &n);
-		
+			
+		/* Exits program (key) */
 		if (n == 0)
 		{
-			printf("Bye! \n");
+			printf("Bye! \n\n");
 			return 0;
 		}
 
@@ -67,7 +65,8 @@ int main(void)
 		/* If user inputs anything else. Loop recalls to the top */
 		else 
 		{
-			printf("Invalid Choice \n");
+			printf("Invalid Choice\n\n");
+			printf("______________\n");
 		}
 	}	
 	return 0;
