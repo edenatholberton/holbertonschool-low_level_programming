@@ -14,6 +14,8 @@
 int main(void)
 {
 	int n = 1; 
+	double A;
+	double B;
 
 	printf("Welcome to Eden's Simple Calculator!\n");
 
@@ -41,7 +43,13 @@ int main(void)
 		/* Proceed to Addition tab */
 		else if (n == 1)
 		{
-	
+			printf("A: ");
+			scanf("%lf", &A);
+		
+			printf("B: ");
+			scanf("%lf", &B);
+
+			printf("\nResult: %g\n", A + B);
 		}
 
 		/* Proceed to Subtract tab */		
