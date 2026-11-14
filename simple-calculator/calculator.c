@@ -55,19 +55,42 @@ int main(void)
 		/* Proceed to Subtract tab */		
 		else if (n == 2)
 		{
+			printf("A: ");
+			scanf("%lf", &A);
 
+			printf("B: ");
+			scanf("%lf", &B);
+			
+			printf("\nResult: %g\n", A - B);
 		}
-
+		
 		/* Proceed to Multiplication tab */
 		else if (n == 3)
 		{
+			printf("A: ");
+			scanf("%lf", &A);
 
+			printf("B: ");
+			scanf("%lf", &B);
+
+			printf("\nResult: %g\n", A * B);
 		}
 
 		/*  Proceed to Division tab */		
 		else if (n == 4)
 		{
+			printf("A: ");
+			scanf("%lf", &A);
 
+			printf("B: ");
+			scanf("%lf", &B);
+			
+			if (B == 0)
+			{
+				printf("Error: division by zero\n");
+			}
+			else
+			printf("\nResult: %g\n", A / B);
 		}
 
 		/* If user inputs anything else. Loop recalls to the top */
