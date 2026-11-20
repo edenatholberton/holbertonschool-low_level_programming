@@ -5,3 +5,4 @@
 - 2-print_dog.c: function that prints a struct dog, and prints (nil) for a missing name or owner.
 - dog.h: also defines the type dog_t as a new name for struct dog.
 - 4-new_dog.c: function that creates a new dog, storing its own copies of the name and the owner.
+- 5-free_dog.c: function that frees a dog, along with its copied name and owner.
